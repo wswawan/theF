@@ -40,12 +40,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    // https://go.nuxtjs.dev/content
-    // '@nuxt/content',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -75,6 +71,7 @@ export default {
           warning: colors.amber.darken3,
           error: colors.deepOrange.darken3,
           success: colors.green.accent3,
+          transparent: colors.transparent
         },
       },
     },
